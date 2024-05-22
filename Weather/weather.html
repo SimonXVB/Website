@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>SimonXVB | Weather</title>
+        <link rel="stylesheet" href="weather.css">
+    </head>
+    <body>
+        <div id = "weather-div">
+            <p id = "header">Super simple weather app!</p>
+    
+            <p id = "city" class = "p-left">City:</p>
+            <p id = "city-data" class = "p-right"></p>
+    
+            <p id = "humidity" class = "p-left">Humidity:</p>
+            <p id = "humidity-data" class = "p-right"></p>
+    
+            <p id = "visibility" class = "p-left">Visibility:</p>
+            <p id = "visibility-data" class = "p-right"></p>
+    
+            <p id = "temp" class = "p-left">Temperature:</p>
+            <p id = "temp-data" class = "p-right"></p>
+    
+            <p id = "desc-data"></p>
+    
+            <input type="text" id = "input" placeholder = "Enter City" required>
+            <button id = "submit">Get Weather</button>
+        </div>
+
+        <p id = "link">I used the <a href = "https://openweathermap.org/">OpenWeatherMap API</a> for this project.</p>
+    <script src = "weather.js"></script>
+    </body>
+</html>

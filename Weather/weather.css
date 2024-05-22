@@ -1,0 +1,152 @@
+body {
+    background-image:linear-gradient(rgba(0, 0, 0, 0.904), rgba(0, 0, 0, 0.884) 15%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#weather-div{
+    display: grid;
+    grid-template-columns: repeat(6, 100px);
+    grid-template-rows: repeat(8, 100px);
+    max-width: fit-content;
+    margin: auto;
+    border: 5px solid white;
+    padding: 1rem;
+    border-radius: 5px;
+    margin-top: 50px;
+    box-shadow: 0px 0px 15px 10px red;
+}
+
+#header{
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    justify-self: center;
+    font-size: 2.5rem;
+    text-decoration: underline overline;
+    font-weight: bold;
+    text-shadow: 10px 5px 7px red;
+}
+
+.p-left{
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    align-content: center;
+    font-size: 2rem;
+    font-weight: bold;
+    letter-spacing: 5px;
+}
+
+.p-right{
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    align-content: center;
+    font-size: 2rem;
+    justify-self: center;
+}
+
+#header{
+    grid-row: 1 / 2;
+    grid-column: 1 / 7;
+}
+
+#city{
+    grid-row: 2 / 3;
+    grid-column: 1 / 4;
+}
+
+#city-data{
+    grid-row: 2 / 3;
+    grid-column: 4 / 7;
+}
+
+#humidity{
+    grid-row: 3 / 4;
+    grid-column: 1 / 4;
+}
+
+#humidity-data{
+    grid-row: 3 / 4;
+    grid-column: 4 / 7;
+}
+
+#visibility{
+    grid-row: 4 / 5;
+    grid-column: 1 / 4;
+}
+
+#visibility-data{
+    grid-row: 4 / 5;
+    grid-column: 4 / 7;
+}
+
+#temp{
+    grid-row: 5 / 6;
+    grid-column: 1 / 4;
+}
+
+#temp-data{
+    grid-row: 5 / 6;
+    grid-column: 4 / 7;
+}
+
+#desc-data{
+    grid-row: 6 / 7;
+    grid-column: 1 / 7;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 2rem;
+    justify-self: center;
+    align-self: center;
+    letter-spacing: 10px;
+    text-decoration: underline;
+}
+
+#input{
+    grid-row: 7 / 8;
+    grid-column: 2 / 6;
+}
+
+#submit{
+    grid-row: 8 / 9;
+    grid-column: 2 / 6;
+}
+
+#input{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2rem;
+    font-weight: bold;
+    border: 3px solid white ;
+    height: fit-content;
+    border-radius: 5px;
+    align-self: end;
+    margin-bottom: 10px;
+    letter-spacing: 3px;
+}
+
+#submit{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2rem;
+    font-weight: bold;
+    border: 3px solid white ;
+    height: fit-content;
+    border-radius: 5px;
+    text-align: start;
+    cursor: pointer;
+}
+
+#link{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1rem;
+    font-weight: bold;
+    word-spacing: -5px;
+    color: white;
+}
+
+#link a:link{
+    color: crimson;
+}
+
+#link a:visited{
+    color: gray;
+}
